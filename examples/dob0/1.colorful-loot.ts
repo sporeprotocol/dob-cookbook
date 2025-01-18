@@ -1,0 +1,73 @@
+import { ccc } from "@ckb-ccc/ccc";
+import { client, signer, render } from "@ckb-ccc/playground";
+
+function generateClusterDescriptionUnderDobProtocol() {
+  /**
+   * Generation example for DOB0
+   */
+  const clusterDescription = "this is the description for Colorful loot cluster";
+  const dob0Pattern: ccc.spore.dob.PatternElementDob0[] = [
+    {
+      traitName: "BackgroundColor",
+      dobType: "String",
+      dnaOffset: 0,
+      dnaLength: 1,
+      patternType: "options",
+      traitArgs: ["red", "blue", "green", "black", "white"],
+    },
+    {
+      traitName: "Type",
+      dobType: "Number",
+      dnaOffset: 1,
+      dnaLength: 1,
+      patternType: "range",
+      traitArgs: [10, 50],
+    },
+    {
+      traitName: "Timestamp",
+      dobType: "Number",
+      dnaOffset: 2,
+      dnaLength: 4,
+      patternType: "rawNumber",
+    },
+  ];
+  const dob0: ccc.spore.dob.Dob0 = {
+    description: clusterDescription,
+    dob: {
+      ver: 0,
+      decoder: ccc.spore.dob.getDecoder(client, "dob0"),
+      pattern: dob0Pattern,
+    },
+  };
+  return ccc.spore.dob.encodeClusterDescriptionForDob0(dob0);
+}
+const { tx, id: clusterId } = await ccc.spore.createSporeCluster({
+  signer,
+  data: {
+    name: "Colorful loot",
+    description: generateClusterDescriptionUnderDobProtocol(),
+  },
+});
+await tx.completeFeeBy(signer);
+
+const txHash = await signer.sendTransaction(tx);
+console.log("Transaction sent:", txHash, "Cluster ID:", clusterId);
+/**
+##createCluster
+ */
+const { tx: sporeTx, id: sporeId } = await ccc.spore.createSpore({
+  signer,
+  data: {
+    contentType: "dob/0",
+    content: ccc.bytesFrom('{ "dna": "0123456789abcdef" }', "utf8"),
+    clusterId: clusterId,
+  },
+  clusterMode: "clusterCell",
+});
+await sporeTx.completeFeeBy(signer);
+
+const sporeTxHash = await signer.sendTransaction(sporeTx);
+console.log("Transaction sent:", txHash, "Spore ID:", sporeId);
+await signer.client.waitTransaction(txHash);
+
+await signer.client.waitTransaction(sporeTxHash);

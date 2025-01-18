@@ -7,7 +7,7 @@ let { tx, id } = await ccc.spore.createSpore({
     signer,
     data: {
         contentType: "text/plain",
-        content: ccc.bytesFrom("hello, spore", "utf8"),
+        content: ccc.bytesFrom("hello, basic loot", "utf8"),
     },
 });
 console.log("sporeId:", id);
