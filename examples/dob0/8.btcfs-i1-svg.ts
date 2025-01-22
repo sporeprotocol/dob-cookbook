@@ -20,7 +20,7 @@ function generateSimpleDNA(length: number): string {
  */
 function generateClusterDescriptionUnderDobProtocol() {
  
-  const clusterDescription = "A cluster with btcfs i0 svg as the primary rendering objects.";
+  const clusterDescription = "A cluster with btcfs i1 svg as the primary rendering objects.";
   
   const dob0Pattern: ccc.spore.dob.PatternElementDob0[] = [
     {
@@ -38,7 +38,7 @@ function generateClusterDescriptionUnderDobProtocol() {
       dnaLength: 1,
       patternType: "options",
       traitArgs:[
-       "btcfs://8ca2da44996f5a06ad44b5bb87fd9acb71390b6c0cb1910c10b0deb8daad7f82i0",
+       "btcfs://8ca2da44996f5a06ad44b5bb87fd9acb71390b6c0cb1910c10b0deb8daad7f82i1",
       ],
     },
     {
@@ -86,7 +86,7 @@ function generateClusterDescriptionUnderDobProtocol() {
 const { tx: clusterTx, id: clusterId } = await ccc.spore.createSporeCluster({
   signer,
   data: {
-    name: "BTCFS i0 SVG",
+    name: "BTCFS i1 SVG",
     description: generateClusterDescriptionUnderDobProtocol(),
   },
 });
@@ -99,7 +99,7 @@ console.log("Create cluster tx committed:", getExplorerTxUrl(clusterTxHash), `Cl
 /**
  * create spore
  */
-//const clusterId = '0xd74f0b5c866f0f04958426213781ddb80e9cd730c78d24f7c149aad18d3bc8bd';
+//const clusterId = '0x8a72b43b66a01aefe6e7ad7258112c63950955f1b07a098b6392278186fe0809';
 const { tx: sporeTx, id: sporeId } = await ccc.spore.createSpore({
   signer,
   data: {
