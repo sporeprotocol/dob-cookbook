@@ -24,8 +24,109 @@ Each example in this cookbook includes:
 - Best practices and considerations
 
 Browse our examples:
-- [Basic DOB Creation](examples/basic-dob-creation.md)
-- And more...
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/0.basic-loot.md">
+          <img src="examples/assets/images/dob0/0.basic-loot-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>Basic Loot</b>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/1.colorful-loot.md">
+          <img src="examples/assets/images/dob0/1.colorful-loot-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>Colorful Loot</b>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/2.regular-link-png.md">
+          <img src="examples/assets/images/dob0/2.regular-link-png-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>Regular Link PNG</b>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/3.btcfs-i0-png.md">
+          <img src="examples/assets/images/dob0/3.btcfs-png-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>BTCFS PNG</b>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/4.ipfs-png.md">
+          <img src="examples/assets/images/dob0/4.ipfs-png-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>IPFS PNG</b>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/5.regular-link-svg.md">
+          <img src="examples/assets/images/dob0/5.regular-link-svg-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>Regular Link SVG</b>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/6.btcfs-i0-svg.md">
+          <img src="examples/assets/images/dob0/6.btcfs-i0-svg-joyid.svg" width="240">
+        <sub>
+          <b>BTCFS SVG (i0)</b>
+        </sub>
+        </a>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/7.btcfs-i1-png.md">
+          <img src="examples/assets/images/dob0/7.btcfs-i1-png-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>BTCFS PNG (i1)</b>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/8.btcfs-i1-svg.md">
+          <img src="examples/assets/images/dob0/8.btcfs-i1-svg-joyid.svg" width="240">
+        </a>
+        <br>
+        <sub>
+          <b>BTCFS SVG (i1)</b>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+
 
 ## Contributing
 
