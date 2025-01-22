@@ -127,6 +127,25 @@ Browse our examples:
 </table>
 </div>
 
+## Compatibility Overview
+
+### Testnet
+|    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
+| ---------------- | ----- | ----- | ------------ | ----- | ----- |
+| Basic Loot       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| Colorful Loot    | ✅    | ✅     | ❌           | ✅     | ❌    |
+| Regular Link PNG | ✅    | ✅     | ✅           | ✅     | ✅    |
+| BTCFS PNG(i0)    | ✅    | ✅     | ❌           | ✅     | ❌    |
+| IPFS PNG         | ✅    | ✅     | ❌           | ✅     | ❌    |
+| Regular Link SVG | ✅    | ✅     | ✅           | ✅     | ✅    |
+| BTCFS SVG (i0)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| BTCFS PNG (i1)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| BTCFS SVG (i1)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+
+### Mainnet
+|    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
+| ---------------- | ----- | ----- | ------------ | ----- | ----- |
+
 
 ## Contributing
 
