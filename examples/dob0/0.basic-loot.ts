@@ -81,7 +81,10 @@ console.log("Create cluster tx committed:", getExplorerTxUrl(clusterTxHash), `Cl
 /**
  * create spore
  */
+// testnet
 //const clusterId = '0x1e13777a2f098e499137fc7ecede4197e762741113eb21ee14e0f6b3a2a8ccbb';
+// mainnet
+//const clusterId = '0xd7c32f5bc9b7b76efcbd455e58933dd449ccc7e7150e0f36fa71b44c7272362b';
 const { tx: sporeTx, id: sporeId } = await ccc.spore.createSpore({
   signer,
   data: {
