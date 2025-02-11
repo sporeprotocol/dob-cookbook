@@ -129,7 +129,9 @@ Browse our examples:
 
 ## Compatibility Overview
 
-### Testnet
+### DOB0 Compatibility
+- **Testnet**
+
 |    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
 | ---------------- | ----- | ----- | ------------ | ----- | ----- |
 | Basic Loot       | ✅    | ✅     | ❌           | ✅     | ❌    |
@@ -142,7 +144,8 @@ Browse our examples:
 | BTCFS PNG (i1)   | ✅    | ✅     | ❌           | ✅     | ❌    |
 | BTCFS SVG (i1)   | ✅    | ✅     | ❌           | ✅     | ❌    |
 
-### Mainnet
+- **Mainnet**
+
 |    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
 | ---------------- | ----- | ----- | ------------ | ----- | ----- |
 | Basic Loot       | ✅    | ✅     | ❌           | ✅     | ❌    |
@@ -155,6 +158,8 @@ Browse our examples:
 | BTCFS PNG (i1)   | ✅    | ✅     | ❌           | ✅     | ✅    |
 | BTCFS SVG (i1)   | ✅    | ✅     | ❌           | ✅     | ✅    |
 
+### DOB1 Compatibility
+- **Testnet**
 
 ## Contributing
 
