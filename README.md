@@ -23,40 +23,38 @@ Each example in this cookbook includes:
 - Usage instructions
 - Best practices and considerations
 
-Browse our examples:
-
+### DOB/0 Examples
 <div align="center">
-
 <table>
   <tr>
     <td align="center" width="300">
       <div>
         <a href="examples/dob0/0.basic-loot.md">
           <img src="examples/assets/images/dob0/0.basic-loot-joyid.svg" width="240">
-        </a>
-        <br>
-        <sub>
+          <sub>
           <b>Basic Loot</b>
+          </sub>
+        </a>
       </div>
     </td>
     <td align="center" width="300">
       <div>
         <a href="examples/dob0/1.colorful-loot.md">
           <img src="examples/assets/images/dob0/1.colorful-loot-joyid.svg" width="240">
-        </a>
-        <br>
-        <sub>
+          <sub>
           <b>Colorful Loot</b>
+          </sub>
+        </a>
       </div>
     </td>
     <td align="center" width="300">
       <div>
         <a href="examples/dob0/2.regular-link-png.md">
           <img src="examples/assets/images/dob0/2.regular-link-png-joyid.svg" width="240">
-        </a>
-        <br>
-        <sub>
+          <sub>
           <b>Regular Link PNG</b>
+          </sub>
+        </a>
       </div>
     </td>
   </tr>
@@ -65,30 +63,30 @@ Browse our examples:
       <div>
         <a href="examples/dob0/3.btcfs-i0-png.md">
           <img src="examples/assets/images/dob0/3.btcfs-png-joyid.svg" width="240">
-        </a>
-        <br>
-        <sub>
+          <sub>
           <b>BTCFS PNG</b>
+          </sub>
+        </a>
       </div>
     </td>
     <td align="center" width="300">
       <div>
         <a href="examples/dob0/4.ipfs-png.md">
           <img src="examples/assets/images/dob0/4.ipfs-png-joyid.svg" width="240">
-        </a>
-        <br>
-        <sub>
+          <sub>
           <b>IPFS PNG</b>
+          </sub>
+        </a>
       </div>
     </td>
     <td align="center" width="300">
       <div>
         <a href="examples/dob0/5.regular-link-svg.md">
           <img src="examples/assets/images/dob0/5.regular-link-svg-joyid.svg" width="240">
-        </a>
-        <br>
-        <sub>
+          <sub>
           <b>Regular Link SVG</b>
+          </sub>
+        </a>
       </div>
     </td>
   </tr>
@@ -97,9 +95,9 @@ Browse our examples:
       <div>
         <a href="examples/dob0/6.btcfs-i0-svg.md">
           <img src="examples/assets/images/dob0/6.btcfs-i0-svg-joyid.svg" width="240">
-        <sub>
-          <b>BTCFS SVG (i0)</b>
-        </sub>
+          <sub>
+            <b>BTCFS SVG (i0)</b>
+          </sub>
         </a>
       </div>
     </td>
@@ -107,20 +105,71 @@ Browse our examples:
       <div>
         <a href="examples/dob0/7.btcfs-i1-png.md">
           <img src="examples/assets/images/dob0/7.btcfs-i1-png-joyid.svg" width="240">
+          <sub>
+            <b>BTCFS PNG (i1)</b>
+          </sub>
         </a>
-        <br>
-        <sub>
-          <b>BTCFS PNG (i1)</b>
       </div>
     </td>
     <td align="center" width="300">
       <div>
         <a href="examples/dob0/8.btcfs-i1-svg.md">
           <img src="examples/assets/images/dob0/8.btcfs-i1-svg-joyid.svg" width="240">
+          <sub>
+            <b>BTCFS SVG (i1)</b>
+          </sub>
         </a>
-        <br>
-        <sub>
-          <b>BTCFS SVG (i1)</b>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
+
+### DOB/1 Examples
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob1/0.basic-shape.md">
+          <img src="examples/assets/images/dob1/0.basic-shape-joyid.svg" width="240">
+          <sub>
+          <b>Basic Shape</b>
+          </sub>
+        </a>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob1/1.spore-genesis(svg_bg_btcfs_icon).md">
+          <img src="examples/assets/images/dob1/1.spore-genesis(svg_bg_btcfs_icon)-joyid.svg" width="240">
+          <sub>
+          <b>Spore Genesis (svg_bg_btcfs_icon)</b>
+          </sub>
+        </a>
+      </div>
+    </td>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon).md">
+          <img src="examples/assets/images/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon)-joyid.svg" width="240">
+          <sub>
+          <b>Nervape Genesis (btcfs_bg_btcfs_icon)</b>
+          </sub>
+        </a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon).md">
+          <img src="examples/assets/images/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon)-joyid.svg" width="240">
+          <sub>
+          <b>Azuki Genesis (ipfs_bg_btcfs_icon)</b>
+          </sub>
+        </a>
       </div>
     </td>
   </tr>
@@ -160,6 +209,22 @@ Browse our examples:
 
 ### DOB1 Compatibility
 - **Testnet**
+
+|    Case                                    | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
+| ------------------------------------------ | ----- | ----- | ------------ | ----- | ----- |
+| [Basic Shape](examples/dob1/0.basic-shape.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ❌     | ❌           | ❌     | ❌    |
+| [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
+
+- **Mainnet**
+
+|    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
+| ---------------- | ----- | ----- | ------------ | ----- | ----- |
+| [Basic Shape](examples/dob1/0.basic-shape.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ❌     | ❌           | ❌     | ❌    |
+| [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
 
 ## Contributing
 
