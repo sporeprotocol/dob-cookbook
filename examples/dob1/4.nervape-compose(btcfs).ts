@@ -64,20 +64,20 @@ function generateClusterDescriptionUnderDobProtocol() {
       traitArgs: ["Nervape Figure Green", "Assorted Rings Gold", "Bitcoin Chain", "Nervos Chain"],
     },
     {
-      traitName: "Upper body",
-      dobType: "String",
-      dnaOffset: 5,
-      dnaLength: 1,
-      patternType: "options",
-      traitArgs: ["Tee POW", "Faux Fur Coat Pink", "Short-Sleeve Button-up Nervape Blue", "Tee Bitcoin Pattern"],
-    },
-    {
       traitName: "Lower body",
       dobType: "String",
       dnaOffset: 6,
       dnaLength: 1,
       patternType: "options",
       traitArgs: ["Cargo Shorts", "Knife Pleated Skirt Denim Blue", "Swimming Trunks POW BOOM", "Fishnet Stocking"],
+    },
+    {
+      traitName: "Upper body",
+      dobType: "String",
+      dnaOffset: 5,
+      dnaLength: 1,
+      patternType: "options",
+      traitArgs: ["Tee POW", "Faux Fur Coat Pink", "Short-Sleeve Button-up Nervape Blue", "Tee Bitcoin Pattern"],
     },
     {
       traitName: "Handheld",
@@ -167,18 +167,6 @@ function generateClusterDescriptionUnderDobProtocol() {
     {
       imageName: "IMAGE.0",
       svgFields: "elements",
-      traitName: "Upper body",
-      patternType: "options",
-      traitArgs: [
-        ["Tee POW", "<image width='500' height='500' href='btcfs://95409604adad8ff6600071f78c3651a5438368812ccf4135eae4382cdb80a193i1' />"],
-        ["Faux Fur Coat Pink", "<image width='500' height='500' href='btcfs://31361a16cd069578914b9dc6993ea2a532430589bd49e36a03c46410a49967d0i1' />"],
-        ["Short-Sleeve Button-up Nervape Blue", "<image width='500' height='500' href='btcfs://83e316fabd7100cea61db4fa6df8d90840557c64ee1a7a46243835737ea1fd00i1' />"],
-        ["Tee Bitcoin Pattern", "<image width='500' height='500' href='btcfs://acb0cf5b691b153154644f045a87a57cf1d00c67e4acca3606a7112e1502b05bi1' />"],
-      ]
-    },
-    {
-      imageName: "IMAGE.0",
-      svgFields: "elements",
       traitName: "Lower body",
       patternType: "options",
       traitArgs: [
@@ -186,6 +174,18 @@ function generateClusterDescriptionUnderDobProtocol() {
         ["Knife Pleated Skirt Denim Blue", "<image width='500' height='500' href='btcfs://50c9f8650d968d319b3e0435527d7461a8eb1d7ef67e3d2bc9c4c186f2a9302ai1' />"],
         ["Swimming Trunks POW BOOM", "<image width='500' height='500' href='btcfs://71c2e728c754d65ea549da7a31d07ac4b1af4b72896903eb2ef7cb8ddd0b5452i1' />"],
         ["Fishnet Stocking", "<image width='500' height='500' href='btcfs://e6df22f53aed8a007e79159e89231661495f46ecf1cc59f6f127242adce31c24i0' />"],
+      ]
+    },
+    {
+      imageName: "IMAGE.0",
+      svgFields: "elements",
+      traitName: "Upper body",
+      patternType: "options",
+      traitArgs: [
+        ["Tee POW", "<image width='500' height='500' href='btcfs://95409604adad8ff6600071f78c3651a5438368812ccf4135eae4382cdb80a193i1' />"],
+        ["Faux Fur Coat Pink", "<image width='500' height='500' href='btcfs://31361a16cd069578914b9dc6993ea2a532430589bd49e36a03c46410a49967d0i1' />"],
+        ["Short-Sleeve Button-up Nervape Blue", "<image width='500' height='500' href='btcfs://83e316fabd7100cea61db4fa6df8d90840557c64ee1a7a46243835737ea1fd00i1' />"],
+        ["Tee Bitcoin Pattern", "<image width='500' height='500' href='btcfs://acb0cf5b691b153154644f045a87a57cf1d00c67e4acca3606a7112e1502b05bi1' />"],
       ]
     },
     {
@@ -239,7 +239,7 @@ console.log("Create cluster tx sent:", clusterTxHash, `Cluster ID: ${clusterId}`
 /**
  * create spore
  */
-//const clusterId = '0x69c4cbfa31bf6916fc456f4f9b78fbcc22dde28c326d0c7f05e78c723de97088';
+//const clusterId = '0x01bb7e748d949998a6d7a12d489c109eca0c4c8fd02f5740e9a043b0c1ef8302';
 const { tx: sporeTx, id: sporeId } = await ccc.spore.createSpore({
   signer,
   data: {

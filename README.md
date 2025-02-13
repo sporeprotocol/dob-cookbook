@@ -223,7 +223,7 @@ Each example in this cookbook includes:
 |    Case                                    | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
 | ------------------------------------------ | ----- | ----- | ------------ | ----- | ----- |
 | [Basic Shape](examples/dob1/0.basic-shape.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ❌     | ❌           | ❌     | ❌    |
+| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ✅     | ❌           | ✅    | ❌    |
 | [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
 | [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
 | [Nervape Compose(btcfs)](examples/dob1/4.nervape-compose(btcfs))   | ✅    | ✅     | ❌           | ✅     | ❌    |
@@ -233,10 +233,15 @@ Each example in this cookbook includes:
 |    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
 | ---------------- | ----- | ----- | ------------ | ----- | ----- |
 | [Basic Shape](examples/dob1/0.basic-shape.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ❌     | ❌           | ❌     | ❌    |
+| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ✅     | ❌           | ✅     | ❌    |
 | [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
 | [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
 | [Nervape Compose(btcfs)](examples/dob1/4.nervape-compose(btcfs))   | ✅    | ✅     | ❌           | ✅     | ❌    |
+
+Why there is no compatibility information for `Element` Market in this compatibility table?
+- Testnet: The Element Market currently does not provide a corresponding testing environment;
+- Mainnet: The Element Market needs to manually add the Cluster to the whitelist and perform some necessary settings to see the rendering result of the DOB in the Cluster;
+
 
 ## Contributing
 
