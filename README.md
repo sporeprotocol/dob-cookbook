@@ -191,31 +191,31 @@ Each example in this cookbook includes:
 ### DOB0 Compatibility
 - **Testnet**
 
-|    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
-| ---------------- | ----- | ----- | ------------ | ----- | ----- |
-| Basic Loot       | ✅    | ✅     | ❌           | ✅     | ❌    |
-| Colorful Loot    | ✅    | ✅     | ❌           | ✅     | ❌    |
-| Regular Link PNG | ✅    | ✅     | ✅           | ✅     | ✅    |
-| BTCFS PNG(i0)    | ✅    | ✅     | ❌           | ✅     | ❌    |
-| IPFS PNG         | ✅    | ✅     | ❌           | ✅     | ❌    |
-| Regular Link SVG | ✅    | ✅     | ✅           | ✅     | ✅    |
-| BTCFS SVG (i0)   | ✅    | ✅     | ❌           | ✅     | ❌    |
-| BTCFS PNG (i1)   | ✅    | ✅     | ❌           | ✅     | ❌    |
-| BTCFS SVG (i1)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+|    Case                                                 | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
+| ------------------------------------------------------- | ----- | ----- | ------------ | ----- | ----- |
+| [Basic Loot](examples/dob0/0.basic-loot.md)             | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Colorful Loot](examples/dob0/1.colorful-loot.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Regular Link PNG](examples/dob0/2.regular-link-png.md) | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [BTCFS PNG(i0)](examples/dob0/3.btcfs-i0-png.md)        | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [IPFS PNG](examples/dob0/4.ipfs-png.md)                 | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Regular Link SVG](examples/dob0/5.regular-link-svg.md) | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [BTCFS SVG (i0)](examples/dob0/6.btcfs-i0-svg.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [BTCFS PNG (i1)](examples/dob0/7.btcfs-i1-png.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [BTCFS SVG (i1)](examples/dob0/8.btcfs-i1-svg.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
 
 - **Mainnet**
 
-|    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
-| ---------------- | ----- | ----- | ------------ | ----- | ----- |
-| Basic Loot       | ✅    | ✅     | ❌           | ✅     | ❌    |
-| Colorful Loot    | ✅    | ✅     | ❌           | ✅     | ❌    |
-| Regular Link PNG | ✅    | ✅     | ✅           | ✅     | ✅    |
-| BTCFS PNG(i0)    | ✅    | ✅     | ✅           | ✅     | ✅    |
-| IPFS PNG         | ✅    | ✅     | ❌           | ✅     | ❌    |
-| Regular Link SVG | ✅    | ✅     | ✅           | ✅     | ✅    |
-| BTCFS SVG (i0)   | ✅    | ✅     | ✅           | ✅     | ✅    |
-| BTCFS PNG (i1)   | ✅    | ✅     | ❌           | ✅     | ✅    |
-| BTCFS SVG (i1)   | ✅    | ✅     | ❌           | ✅     | ✅    |
+|    Case                                                 | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
+| ------------------------------------------------------- | ----- | ----- | ------------ | ----- | ----- |
+| [Basic Loot](examples/dob0/0.basic-loot.md)             | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Colorful Loot](examples/dob0/1.colorful-loot.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Regular Link PNG](examples/dob0/2.regular-link-png.md) | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [BTCFS PNG(i0)](examples/dob0/3.btcfs-i0-png.md)        | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [IPFS PNG](examples/dob0/4.ipfs-png.md)                 | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Regular Link SVG](examples/dob0/5.regular-link-svg.md) | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [BTCFS SVG (i0)](examples/dob0/6.btcfs-i0-svg.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [BTCFS PNG (i1)](examples/dob0/7.btcfs-i1-png.md)       | ✅    | ✅     | ❌           | ✅     | ✅    |
+| [BTCFS SVG (i1)](examples/dob0/8.btcfs-i1-svg.md)       | ✅    | ✅     | ❌           | ✅     | ✅    |
 
 ### DOB1 Compatibility
 - **Testnet**
@@ -223,20 +223,20 @@ Each example in this cookbook includes:
 |    Case                                    | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
 | ------------------------------------------ | ----- | ----- | ------------ | ----- | ----- |
 | [Basic Shape](examples/dob1/0.basic-shape.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ✅     | ❌           | ✅    | ❌    |
-| [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Nervape Compose(btcfs)](examples/dob1/4.nervape-compose(btcfs))   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon).md)   | ❌    | ✅     | ❌           | ✅    | ❌    |
+| [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon).md)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon).md)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Nervape Compose(btcfs)](examples/dob1/4.nervape-compose(btcfs).md)   | ✅    | ✅     | ❌           | ✅     | ❌    |
 
 - **Mainnet**(TODO)
 
 |    Case          | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
 | ---------------- | ----- | ----- | ------------ | ----- | ----- |
 | [Basic Shape](examples/dob1/0.basic-shape.md)       | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon))   | ❌    | ✅     | ❌           | ✅     | ❌    |
-| [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon))   | ✅    | ✅     | ❌           | ✅     | ❌    |
-| [Nervape Compose(btcfs)](examples/dob1/4.nervape-compose(btcfs))   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Spore Genesis(svg_bg_btcfs_icon)](examples/dob1/1.spore-genesis(svg_bg_btcfs_icon).md)   | ❌    | ✅     | ❌           | ✅     | ❌    |
+| [Nervape Genesis(btcfs_bg_btcfs_icon)](examples/dob1/2.nervape-genesis(btcfs_bg_btcfs_icon).md)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Azuki Genesis(ipfs_bg_btcfs_icon)](examples/dob1/3.azuki-genesis(ipfs_bg_btcfs_icon).md)   | ✅    | ✅     | ❌           | ✅     | ❌    |
+| [Nervape Compose(btcfs)](examples/dob1/4.nervape-compose(btcfs).md)   | ✅    | ✅     | ❌           | ✅     | ❌    |
 
 Why there is no compatibility information for `Element` Market in this compatibility table?
 - Testnet: The Element Market currently does not provide a corresponding testing environment;
@@ -248,7 +248,8 @@ Why there is no compatibility information for `Element` Market in this compatibi
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting your examples.
 
 ## Resources
-
+- DOB Best Practices: [中文](BestPractices_ZH.md), [English](BestPractices.md)
+- DOB cookbook FAQ: [FAQ](FAQ.md)
 - [DOB/0](https://github.com/sporeprotocol/spore-dob-0)
 - [DOB/1](https://github.com/sporeprotocol/spore-dob-1)
 - [Spore Document](docs.spore.pro)
