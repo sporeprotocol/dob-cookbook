@@ -252,7 +252,7 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 - DOB cookbook FAQ: [FAQ](FAQ.md)
 - [DOB/0](https://github.com/sporeprotocol/spore-dob-0)
 - [DOB/1](https://github.com/sporeprotocol/spore-dob-1)
-- [Spore Document](docs.spore.pro)
+- [Spore Document](https://docs.spore.pro)
 
 ## License
 
