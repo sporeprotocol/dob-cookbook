@@ -1,14 +1,3 @@
-## Intro
-
-This example demonstrates how to create a DOB using the DOB/0 protocol, with random image (BTCFS, IPFS, Regular Link) as the primary rendering objects. You can view the DOB on JoyID, Omiga, CKB Explorer, Mobit, Dobby. 
-
-<div align="center">
-  <img src="../assets/images/dob0/9.random-img-joyid.svg" height="300">
-</div>
-
-## [Code](./9.random-img.ts)
-
-```typescript
 
 import { ccc } from "@ckb-ccc/ccc";
 import { client, signer } from "@ckb-ccc/playground";
@@ -96,7 +85,7 @@ function generateClusterDescriptionUnderDobProtocol() {
 const { tx: clusterTx, id: clusterId } = await ccc.spore.createSporeCluster({
   signer,
   data: {
-    name: "Random BG By DNA",
+    name: "Programmatic Image By DNA",
     description: generateClusterDescriptionUnderDobProtocol(),
   },
 });
@@ -112,7 +101,7 @@ console.log("Create cluster tx committed:", getExplorerTxUrl(clusterTxHash), `Cl
 // testnet
 //const clusterId = '0x7845409c6c69be05c8b9987c7a6177c2bc04c43f616a1e354a392381dd7019a4';
 // mainnet 
-//const clusterId = '0x20c7db5cb785f2d1f116eda2f09c6b9bf0be8cfc1a3c071e9cd356c8d77d1b9b';
+//const clusterId = '0x2376a28a9e62a078204ffec136878fbabc81adaa47cdc1f39912f948dbffc57e';
 const { tx: sporeTx, id: sporeId } = await ccc.spore.createSpore({
   signer,
   data: {
@@ -206,80 +195,3 @@ console.log('Now you can view the dob on JoyId, Omiga, CKB Explorer, Mobit, Dobb
 Object.values(PlatformSupportedDOB).forEach(platform => {
     console.log(`View on ${platform}: 👉🔗`, viewDobUrl(platform, clusterId, sporeId));
 });
-```
-
-You can also open and edit the code online in [ccc-playground](https://live.ckbccc.com/?src=https://raw.githubusercontent.com/sporeprotocol/dob-cookbook/refs/heads/main/examples/dob0/9.random-img.ts):
-
-![CCC Playground Guide](../assets/images/ccc-playground-guide.png)
-
->This example adds 3 traits to set the background image: 
-- **`prev.type`** : Render as `image` or `text`.
-- **`prev.bg`** : Set the background image.
-- **`prev.bgcolor`** : Set the background color.
-
-
-## On-chain test cluster and DOB
-
-### Testnet
-- 👉[🔗 createCluster tx](https://testnet.explorer.nervos.org/transaction/0xd62157df5ee10ab4dc10a903be9a6d159e80723f10aa0415af59331bad6b67c8)
-  - clusterId: `0x7845409c6c69be05c8b9987c7a6177c2bc04c43f616a1e354a392381dd7019a4` (type_script.args)
-  - clusterTypeHash: `0xae57dca034c0e24c27f054c16c49178aa0f9c5ac17f017f7c5881dc3a2e704c6` (hash(type_script(cluster cell)))
-
-- 👉[🔗 mintSpore tx](https://testnet.explorer.nervos.org/transaction/0x8ac707a5312454d5195a961be602e88759e5666ec95153845143273c056acff4)
-  - sporeId: `0x559c4c53348f158f3b7e205cca3c10eca3dab437549c9d43dd038a2910c5a5af` (type_script.args)
-  - sporeTypeHash: `0x4ccea14b7bcd4ce2a6055b44f5ec8c25078aa7b9739d65c66a2aaadd3c6a56c6` (hash(type_script(spore cell)))
-
-### Mainnet
-- 👉[🔗 createCluster tx](https://explorer.nervos.org/transaction/0xcb54936dcf3b20b10743fbfa615931a4e8b0244561e63762d781c1f59618e8f3)
-  - clusterId: `0x2376a28a9e62a078204ffec136878fbabc81adaa47cdc1f39912f948dbffc57e` (type_script.args)
-  - clusterTypeHash: `0x46cb7c83c5fc1cc21a4dbdf771730823f69aabb968aff44c41f20f4155668e56` (hash(type_script(cluster cell)))
-
-- 👉[🔗 mintSpore tx](https://explorer.nervos.org/transaction/0x3f0750207edd652bbc25349406c68b9b4435aaab7c9559efcb35487d3f956241)
-  - sporeId: `0x81cb54dfe6aef91c4659bd71813d0f787dcf532c347c8e983546973db455c7c0` (type_script.args)
-  - sporeTypeHash: `0x42e7496704fe72b62e9fd666e2e4edd4cf6fca6e8b9d847cf9f221124dd7029c` (hash(type_script(spore cell)))
-
-
-### Platform Preview(Testnet)
-
-### JoyID
-
-<div align="center">
-  <img src="../assets/images/dob0/9.random-img-joyid.svg" height="300">
-</div>
-
-[View on JoyID](https://testnet.joyid.dev/nft/559c4c53348f158f3b7e205cca3c10eca3dab437549c9d43dd038a2910c5a5af) 
-
-### Omiga
-
-![9.random-img-omiga.png](../assets/images/dob0/9.random-img-omiga.png)
-
-[View on Omiga](https://test.omiga.io/info/dobs/0x4ccea14b7bcd4ce2a6055b44f5ec8c25078aa7b9739d65c66a2aaadd3c6a56c6) 
-
-### Mobit
-
-![9.random-img-mobit.png](../assets/images/dob0/9.random-img-mobit.png)
-
-[View on mobit](https://mobit.app/dob/559c4c53348f158f3b7e205cca3c10eca3dab437549c9d43dd038a2910c5a5af?chain=ckb)
-
-### Dobby
-![9.random-img-dobby.png](../assets/images/dob0/9.random-img-dobby.png)
-[View on Dobby](https://test-dobby.entrust3.com/item-detail_ckb/0x559c4c53348f158f3b7e205cca3c10eca3dab437549c9d43dd038a2910c5a5af) 
-
-### Explorer
-![9.random-img-explorer.png](../assets/images/dob0/9.random-img-explorer.png)
-[View on CKB Explorer](https://testnet.explorer.nervos.org/nft-info/0x574c7a019d7cbb584e2f75ed69f69047de6a2dd1b0fb2da3b1153c11155ce12a/0x559c4c53348f158f3b7e205cca3c10eca3dab437549c9d43dd038a2910c5a5af) 
-
-
-## Compatibility
-|         | JoyID | Omiga | CKB Explorer | Mobit | Dobby |
-| ------- | ----- | ----- | ------------ | ----- | ----- |
-| Testnet | ✅    | ✅     | ✅           | ✅     | ✅    |
-| Mainnet | ✅    | ✅     | ✅           | ✅     | ✅    |
-
-
----
-<div align="left">
-  
-| [← Previous Example](8.btcfs-i1-svg.md) |
-|:------------------------------------|
-</div
