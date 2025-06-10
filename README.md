@@ -122,6 +122,18 @@ Each example in this cookbook includes:
       </div>
     </td>
   </tr>
+  <tr>
+    <td align="center" width="300">
+      <div>
+        <a href="examples/dob0/9.random-img.md">
+          <img src="examples/assets/images/dob0/9.random-img-joyid.svg" width="240">
+          <sub>
+            <b>Random Image</b>
+          </sub>
+        </a>
+      </div>
+    </td>
+  </tr>
 </table>
 </div>
 
@@ -202,6 +214,7 @@ Each example in this cookbook includes:
 | [BTCFS SVG (i0)](examples/dob0/6.btcfs-i0-svg.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
 | [BTCFS PNG (i1)](examples/dob0/7.btcfs-i1-png.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
 | [BTCFS SVG (i1)](examples/dob0/8.btcfs-i1-svg.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [Random Image](examples/dob0/9.random-img.md)           | ✅    | ✅     | ✅           | ✅     | ✅    |
 
 - **Mainnet**
 
@@ -216,6 +229,7 @@ Each example in this cookbook includes:
 | [BTCFS SVG (i0)](examples/dob0/6.btcfs-i0-svg.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
 | [BTCFS PNG (i1)](examples/dob0/7.btcfs-i1-png.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
 | [BTCFS SVG (i1)](examples/dob0/8.btcfs-i1-svg.md)       | ✅    | ✅     | ✅           | ✅     | ✅    |
+| [Random Image](examples/dob0/9.random-img.md)           | ✅    | ✅     | ✅           | ✅     | ✅    |
 
 ### DOB1 Compatibility
 - **Testnet**
